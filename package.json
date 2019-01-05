@@ -1,0 +1,23 @@
+{
+  "name": "p2pdemo",
+  "version": "1.0.0",
+  "description": "A Demo for learning P2P and WebRTC",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonkTsang/P2PDemo.git"
+  },
+  "author": "ronktsang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonkTsang/P2PDemo/issues"
+  },
+  "homepage": "https://github.com/RonkTsang/P2PDemo#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
