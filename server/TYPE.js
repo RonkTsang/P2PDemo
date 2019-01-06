@@ -1,6 +1,10 @@
 module.exports = {
+    CONN: 'connection',
     JOIN: 'join',
     ACK: 'joinSuccess',
     SEND: 'send',
-    MSG: 'msg'
+    MSG: 'msg',
+    CANDIDATE: 'candidate',
+    OFFER: 'offer',
+    ANSWER: 'answer'
 }
